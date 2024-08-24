@@ -1,4 +1,4 @@
-# gFly Notification
+# gFly Notification - Mail
 
     Copyright © 2023, gFly
     https://www.gFly.dev
