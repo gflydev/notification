@@ -10,7 +10,7 @@ import (
 //                                 Mail Notification Handler
 // ========================================================================================
 
-func init() {
+func AutoRegister() {
 	notification.Register(notification.Type((*IMailNotification)(nil)), newMailHandler)
 }
 

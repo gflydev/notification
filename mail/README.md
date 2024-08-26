@@ -9,16 +9,21 @@
 Install
 ```bash
 go get -u github.com/gflydev/notification@v1.0.0
-go get -u github.com/gflydev/notification/mail@v1.0.0
+go get -u github.com/gflydev/notification/mail@v1.0.1
 ```
 
 Quick usage `main.go`
 ```go
 import (
-    _ "github.com/gflydev/notification/mail"
+    notificationMail "github.com/gflydev/notification/mail"
     "github.com/gflydev/notification"
 )
 
+notificationMail.AutoRegister()
+```
+
+Notification file
+```go
 type ResetPassword struct {
 }
 

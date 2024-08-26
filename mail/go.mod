@@ -3,7 +3,7 @@ module github.com/gflydev/notification/mail
 go 1.22.6
 
 require (
-	github.com/gflydev/core v1.10.1
+	github.com/gflydev/core v1.10.2
 	github.com/gflydev/mail v1.0.1
 	github.com/gflydev/notification v1.0.0
 )

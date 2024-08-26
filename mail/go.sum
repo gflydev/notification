@@ -4,6 +4,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gflydev/core v1.10.1 h1:v2Dz6vWnj1SX9ZHU2u/lFAELkR1CQLjnc8K7i7tJ3Q8=
 github.com/gflydev/core v1.10.1/go.mod h1:/YjYOURtefBGNqkQWGtP51A6eWkTovh9di2N81RDWhs=
+github.com/gflydev/core v1.10.2 h1:zbtWLpbFZU2TElBKW6405dgs9147dDaG/99l7jYMrw8=
+github.com/gflydev/core v1.10.2/go.mod h1:/YjYOURtefBGNqkQWGtP51A6eWkTovh9di2N81RDWhs=
 github.com/gflydev/mail v1.0.1 h1:3WRIEyK6X9pDT4YUKHtOTeYv4GRTyxDAwW3J0zlJhRY=
 github.com/gflydev/mail v1.0.1/go.mod h1:MFhqUQAUirEy+dPgExam6FQKIdKpA+9FSj2fCnCBIz4=
 github.com/gflydev/notification v1.0.0 h1:qwaphqayOhVGBrTlYc/DSMcWteQcY6vJTg2jz6jl5sQ=

@@ -2,7 +2,7 @@ module github.com/gflydev/notification
 
 go 1.22.6
 
-require github.com/gflydev/core v1.9.0
+require github.com/gflydev/core v1.10.2
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
