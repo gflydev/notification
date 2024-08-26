@@ -1,6 +1,6 @@
 module github.com/gflydev/notification/mail
 
-go 1.23.0
+go 1.22.6
 
 require (
 	github.com/gflydev/core v1.9.0
