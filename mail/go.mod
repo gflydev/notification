@@ -4,8 +4,8 @@ go 1.24.0
 
 require (
 	github.com/gflydev/core v1.11.3
-	github.com/gflydev/mail v1.0.2
-	github.com/gflydev/notification v1.0.0
+	github.com/gflydev/mail v1.0.3
+	github.com/gflydev/notification v1.0.2
 )
 
 require (
