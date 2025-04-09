@@ -53,7 +53,7 @@ func Send(notification any) error {
 	}
 
 	if len(notificationHandlers) == 0 {
-		return errors.NotYetImplemented
+		return errors.NotImplemented
 	}
 
 	var wg sync.WaitGroup
