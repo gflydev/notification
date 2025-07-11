@@ -2,16 +2,18 @@ module github.com/gflydev/notification/mail
 
 go 1.24.0
 
+replace github.com/gflydev/notification => ../
+
 require (
-	github.com/gflydev/core v1.11.3
+	github.com/gflydev/core v1.17.1
 	github.com/gflydev/mail v1.0.3
 	github.com/gflydev/notification v1.0.2
 )
 
 require (
-	github.com/andybalholm/brotli v1.1.1 // indirect
+	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.60.0 // indirect
-	golang.org/x/crypto v0.37.0 // indirect
+	github.com/valyala/fasthttp v1.63.0 // indirect
+	golang.org/x/crypto v0.40.0 // indirect
 )

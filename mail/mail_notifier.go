@@ -7,25 +7,29 @@ import (
 )
 
 // ========================================================================================
-//                                 Mail Notification Handler
+//                            Register Mail Notification Handler
 // ========================================================================================
 
 func AutoRegister() {
-	notification.Register(notification.Type((*IMailNotification)(nil)), newMailHandler)
+	notification.Register(newMailHandler, (*IMailNotification)(nil))
 }
 
 func newMailHandler(notification any) notification.INotifiable {
 	return &mailNotification{
-		Notification: notification.(IMailNotification),
+		Data: notification.(IMailNotification),
 	}
 }
 
+// ========================================================================================
+//                                 Mail Notification Handler
+// ========================================================================================
+
 type mailNotification struct {
-	Notification IMailNotification
+	Data IMailNotification
 }
 
 func (h *mailNotification) Notify() {
-	data := h.Notification.ToEmail()
+	data := h.Data.ToEmail()
 
 	envelop := mail.Envelop{
 		To:      []string{data.To},
