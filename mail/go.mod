@@ -2,12 +2,10 @@ module github.com/gflydev/notification/mail
 
 go 1.24.0
 
-replace github.com/gflydev/notification => ../
-
 require (
 	github.com/gflydev/core v1.17.1
 	github.com/gflydev/mail v1.0.3
-	github.com/gflydev/notification v1.0.2
+	github.com/gflydev/notification v1.1.0
 )
 
 require (

@@ -83,7 +83,6 @@ func Send(notification any) error {
 		}
 
 		if !notifyType.Implements(handlerInfo.interfaceType) {
-			log.Warnf("[SKIP] Notification handler for type %v does not implement %v", notifyType, handlerInfo.interfaceType)
 			continue
 		}
 

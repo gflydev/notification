@@ -16,6 +16,8 @@ github.com/gflydev/notification v1.0.0 h1:qwaphqayOhVGBrTlYc/DSMcWteQcY6vJTg2jz6
 github.com/gflydev/notification v1.0.0/go.mod h1:JQ9l0GllpJw7MIp2kYz2Yr0fr4HNecu8esiSN+9wid8=
 github.com/gflydev/notification v1.0.2 h1:k9+OhC7VgDJJVp/MyPDYuBRPmOlEffISwxPGBL7ozm0=
 github.com/gflydev/notification v1.0.2/go.mod h1:r1DqAyFRkCXx3yc5EG+tEHgPnK/ga8MW+e/M7IpOpvo=
+github.com/gflydev/notification v1.1.0 h1:cZXhuv6XLYNGoZ7MAck8Bsk/7JStIGeYCwOsu80jmy8=
+github.com/gflydev/notification v1.1.0/go.mod h1:Ux8sdRXElB0QW4QTqF+Pqcmix8AxHRAXQMWj5S4xt+4=
 github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
 github.com/klauspost/compress v1.18.0/go.mod h1:2Pp+KzxcywXVXMr50+X0Q/Lsb43OQHYWRCY2AiWywWQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
